@@ -1,0 +1,31 @@
+/* .list li:last-child a {
+    color: red;
+}
+
+.list li:first-child a {
+    color: orange;
+} */
+
+/* .list li:nth-child(4) a {
+    color: blueviolet;
+} */
+
+/* .list a:hover {
+    color: brown;
+} */
+
+/* .list li:not(.not-exmpl) a {
+    color: orange;
+} */
+.list {
+    list-style: none;
+}
+
+.list li::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    margin-right: 10px;
+}
